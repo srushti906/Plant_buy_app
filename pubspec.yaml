@@ -1,0 +1,44 @@
+name: green_square
+description: "A new Flutter project for plants."
+publish_to: 'none' # This line prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  firebase_core: ^3.4.1
+  firebase_auth: ^5.2.1
+  cloud_firestore: ^5.4.1
+  flutter_bloc: ^8.1.6
+  hydrated_bloc: ^9.1.5
+  intl: ^0.19.0
+  path_provider: ^2.1.4
+  equatable: ^2.0.5
+  share_plus: ^10.0.2
+  printing: ^5.13.3
+  pdf: ^3.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/monstera.webp
+    - assets/images/snakeplant.jfif
+    - assets/images/QR.jpeg
+
+    - assets/icons/empty.png
+    - assets/icons/noted.png
+    - assets/icons/logo.png

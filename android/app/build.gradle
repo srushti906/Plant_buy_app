@@ -1,0 +1,31 @@
+// android/app/build.gradle
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services' // Apply the Google services plugin here
+}
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.vatsalraj.GREENSQUARE" // Replace with your actual application ID
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-auth:23.4.0' // Updated version
+    implementation 'com.google.firebase:firebase-firestore:24.6.0' // Updated version
+    implementation platform('com.google.firebase:firebase-bom:33.1.2') // BOM to manage Firebase versions
+    implementation 'com.google.firebase:firebase-analytics' // Add analytics if needed
+    // Add other dependencies as required
+}

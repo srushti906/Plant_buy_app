@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472341388547",
+    "project_id": "greensquare-c7657",
+    "storage_bucket": "greensquare-c7657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472341388547:android:bc70ad416a57157da3dd36",
+        "android_client_info": {
+          "package_name": "com.vatsalraj.GREENSQUARE"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTErtyWDfVllr0EFPrCwulI4JOpXnlXSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
